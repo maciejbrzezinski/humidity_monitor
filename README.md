@@ -1,4 +1,4 @@
-# 🌱 ESP32 Plant Monitor with Flutter App (Bluetooth)
+# 🌱 ESP32 Plant Monitor with Flutter App
 
 ## Overview
 ESP32-based plant environment monitor with a Flutter application connected via Bluetooth.  
