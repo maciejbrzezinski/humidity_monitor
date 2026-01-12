@@ -6,6 +6,8 @@ The system collects real-time plant and environment data and displays it in a cl
 
 https://github.com/user-attachments/assets/fd1c38a0-c83f-4209-a050-21c342b0fbc3
 
+![DSC04925](https://github.com/user-attachments/assets/06c3189c-a0f2-44f5-b21f-e646b4c543c0)
+
 ---
 
 ## Features
