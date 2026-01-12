@@ -1,16 +1,31 @@
-# humidity_monitor
+# 🌱 ESP32 Plant Monitor with Flutter App (Bluetooth)
 
-An app that measures soil moisture in real time
+## Overview
+ESP32-based plant environment monitor with a Flutter application connected via Bluetooth.  
+The system collects real-time plant and environment data and displays it in a clean UI.
 
-## Getting Started
+https://github.com/user-attachments/assets/fd1c38a0-c83f-4209-a050-21c342b0fbc3
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Features
+- 📡 Bluetooth Low Energy (BLE) communication  
+- 🌡️ Temperature & air humidity monitoring  
+- 🌱 Soil moisture measurement  
+- ☀️ Light level detection  
+- 📊 Live data
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tech Stack
+
+### Hardware
+- [ESP32](https://botland.com.pl/esp32/8893-esp32-wifi-bt-42-platforma-z-modulem-esp-wroom-32-zgodny-z-esp32-devkit-5904422337438.html)
+- [Soil moisture sensor](https://botland.com.pl/czujniki-wilgotnosci/1588-czujnik-wilgotnosci-gleby-5904422368289.html)
+- [Okystar LDR light sensor](https://botland.com.pl/czujniki-swiatla-i-koloru/16560-czujnik-swiatla-ldr-rezystancyjny-dla-arduino-okystar-5904422378202.html)
+- [DHT11 Temperature & humidity sensor](https://botland.com.pl/czujniki-multifunkcyjne/1886-czujnik-temperatury-i-wilgotnosci-dht11-modul-przewody-5903351242448.html)
+
+### Software
+- ESP32
+- Flutter  
+- Bluetooth Low Energy (BLE)
