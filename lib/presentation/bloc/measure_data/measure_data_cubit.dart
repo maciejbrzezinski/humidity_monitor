@@ -11,14 +11,10 @@ class MeasureDataCubit extends Cubit<MeasureDataState> with SafeEmitMixin<Measur
   MeasureDataCubit(this._getMeasureDataStreamUseCase) : super(const MeasureDataState.loading()) {
     _getMeasureDataStreamUseCase().listen(
       (measureData) {
-        if (!isClosed) {
-          safeEmit(MeasureDataState.loaded(measureData: measureData));
-        }
+        safeEmit(MeasureDataState.loaded(measureData: measureData));
       },
       onError: (error) {
-        if (!isClosed) {
-          safeEmit(MeasureDataState.error(message: error.toString()));
-        }
+        safeEmit(MeasureDataState.error(message: error.toString()));
       },
     );
   }
