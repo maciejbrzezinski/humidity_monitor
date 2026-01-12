@@ -1,0 +1,1 @@
+enum BluetoothConnection { connected, disconnected }
